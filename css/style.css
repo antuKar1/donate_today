@@ -33,8 +33,8 @@ font-family: "Poppins", sans-serif;
     --clr_donate_bg:#FFEEEE;
     --clr_secondary:#FFF4D6;
     
-    --clr_plan_bg1:#ff59591a;
-    --clr_plan_bg2:rgba(79, 157, 166, 0.2);
+    --clr_plan_bg2:rgb(255 89 89 / 10%);
+    --clr_plan_bg1:rgb(79 157 166 / 10%);
     --clr_plan_bg3:#FFF4D6;
 
 }
@@ -162,4 +162,40 @@ input[type="text"] {
     text-align: center;
     margin: 26px auto;
     border: navajowhite;
+}
+/* ========= Donate Plan =============== */
+.donate_plan h1 {
+    text-align: center;
+}
+.donate_plan p {
+    padding: 18px 10px;
+    text-align: center;
+}
+.plns {
+    margin: 85px 0px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.plan {
+    text-align: center;
+    background: #FAFAF9;
+    padding: 32px 10px;
+    border-radius: 10px;
+}
+.plan h2 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    margin-top: 12px;
+}
+.plan img {
+    width: 49.77px;
+    height: 49.77px;
+    
+}
+.plan p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
 }
