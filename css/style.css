@@ -52,7 +52,7 @@ a{
 .layout_size {
     width: 80%;
     margin: 0 auto;
-    /* padding: 70px 0px; */
+    padding: 22px 0px;
 }
 .title{
     font-size: 45px;
@@ -72,12 +72,13 @@ a{
     font-weight: 400;
     color: var(--clr_basic_txt);
     background-color: var(--clr_primary);
-    width: 160px;
-    height: 56px;
+    width: auto;
+    /* height: 56px; */
     display: inline-block;
     text-align: center;
-    line-height: 56px;
+    /* line-height: 36px; */
     border-radius: 6px;
+    padding: 12px 14px;
 }
 /* ======= Header ========= */
 header{
@@ -125,7 +126,7 @@ a#whatch_video {
 /* =================== Donate ==================== */
 .top_content {
     text-align: center;
-    padding: 80px 0px;
+    padding: 30px 0px 0px 0px;
     width: 70%;
     margin: 0px auto;
 }
@@ -136,7 +137,7 @@ a#whatch_video {
     padding: 11px 70px;
 }
 .amount {
-    margin-top: 60px;
+    margin-top: 26px;
 }
 form {
     display: flex;
@@ -172,7 +173,7 @@ input[type="text"] {
     text-align: center;
 }
 .plns {
-    margin: 85px 0px;
+    margin: 46px 0px 0px 0px;
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -198,4 +199,74 @@ input[type="text"] {
     font-size: 16px;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
+}
+/* ====================== Homeless ======================= */
+.no_homeless {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    justify-items: center;
+    margin: 60px 0px 0px 0px;
+}
+.homeless_left {
+    width: 50%;
+    margin: auto 0px;
+}
+.homeless_left a {
+    margin-top: 30px;
+}
+.homeless_right {
+    width: 50%;
+}
+.homeless_right img{
+    width: 100%;
+}
+/* ============== Give Life ================= */
+
+.update {
+    text-align: center;
+    margin: 50px 0px;
+}
+.subscribe_bg {
+    background-color: var(--clr_secondary);
+    padding: 80px;
+    margin: 0px auto;
+    margin-top: 60px;
+}
+input[type="email"] {
+    background: #D9D9D9;
+    padding: 10px 20px;
+    border: 4px;
+    outline: 0px;
+    width: 44%;
+}
+form.email {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0px;
+}
+.subscribe {
+    border: navajowhite;
+    border-radius: 0px 10px 10px 0px;
+}
+/* ==================== footer =================== */
+footer{
+    background-color: #0B0D17;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.footer_content {
+    margin: auto 0px;
+}
+
+.footer_content h1{
+    font-size: 45px;
+    color: var(--clr_primary);
+}
+.footer_content span{
+    font-size: 18px;
+    color: var(--clr_paragraph);
 }
